@@ -15,7 +15,9 @@ Powershell
 The following Powershell modules must the installed, the script will validate and try to install the required modules. However, we recommend you install the modules manually before running the script.
 
 Install-Module -Name ImportExcel -Force -SkipPublisherCheck
+
 Install-Module -Name Az.ResourceGraph -SkipPublisherCheck
+
 Install-Module -Name Az.Accounts -SkipPublisherCheck
 
 After installing modules, you must open a new Powershell session
