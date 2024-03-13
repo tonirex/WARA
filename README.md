@@ -50,4 +50,6 @@ Make sure to change your directory to the location that you saved the script to.
 
 Once directory has been changed run:
 
-.\wara-arg-runner.ps1 -TenantID <replace with tenant ID> -Subscription IDs <replace with subscription IDs>
+.\wara-arg-runner.ps1 -TenantID <replace with tenant ID> -SubscriptionIds <replace with subscription IDs>
+
+you can add multiple subscriptions separated by a comma ,
